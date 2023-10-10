@@ -137,7 +137,7 @@ def predicts():
     # GET メソッドの定義
     elif request.method == 'GET':
         return render_template('index.html', forms=plantarform)
-    
+
 def save_to_excel(ID,gender, weight, height, bmi, period, sports_history, steroid, calcaneal_spur, thickness, blood_flow, d_flex, p_flex, mp_ex, pre_vas):
     file_path = 'data.xlsx'
 
